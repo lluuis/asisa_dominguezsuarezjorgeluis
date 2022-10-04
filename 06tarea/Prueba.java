@@ -1,4 +1,4 @@
-// convolucion discreta
+  // convolucion discreta
 // alumno: dominguez suarez jorge luis  
 
 import java.util.Scanner; 
