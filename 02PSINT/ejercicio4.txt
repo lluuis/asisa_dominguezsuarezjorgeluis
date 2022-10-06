@@ -1,0 +1,11 @@
+Algoritmo sin_titulo
+	definir r,h,res,res1 Como real
+	Escribir "ingrese el radio"
+	leer r
+	Escribir "ingrese la altura"
+	leer h
+	res=(3.1416)*((r*r))
+	res1=res*h
+	Escribir "el area del cierculo es: ",res
+	Escribir "el volumen del cilindro es: ",res1
+FinAlgoritmo

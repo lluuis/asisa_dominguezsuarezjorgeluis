@@ -1,0 +1,11 @@
+Algoritmo sin_titulo
+	definir acum,a,res Como Entero
+	acum=0
+	Escribir "ingrese el numero"
+	leer a;
+	Para i=1 Hasta a Con Paso 1 Hacer
+		acum=acum+1
+		res=acum+res
+	Fin Para
+	Escribir "el total es:",res
+FinAlgoritmo

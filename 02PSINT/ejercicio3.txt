@@ -1,0 +1,9 @@
+Algoritmo sin_titulo
+	definir a,b,c Como Real
+	Escribir "ingrese el cateto opuesto"
+	leer a
+	Escribir "ingrese el cateto ayascente"
+	leer b
+	c=RC((a*a)+(b*b))
+	Escribir "la hipotenusa es: ",c
+FinAlgoritmo

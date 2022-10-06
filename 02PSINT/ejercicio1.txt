@@ -1,0 +1,33 @@
+Algoritmo sin_titulo
+	definir a,b,c como real
+	Escribir "ingrese el primer numero"
+	leer a;
+	Escribir "ingrese el segundo numero"
+	leer b;
+	Escribir "ingrese el tercer numero"
+	leer c;
+	si (a>b) y (a>c) Entonces
+		Escribir "el mayor es el primer numero"
+		sino
+			si a=b o a=c Entonces
+				Escribir "por favor de escribir numeros diferentes" 
+			FinSi
+			
+			si (b>a) y (b>c) Entonces
+				Escribir "el mayor es el segundo numero"
+			sino
+				si b=a o b=c Entonces
+					Escribir "por favor de escribir numeros diferentes" 
+				FinSi
+				si (c>a) y (c>b) Entonces
+					Escribir "el mayor es el tercer numero"
+				sino
+					si c=a o c=b Entonces
+						Escribir "por favor de escribir numeros diferentes" 
+					FinSi
+				FinSi
+			FinSi
+		finsi
+		
+	
+FinAlgoritmo
