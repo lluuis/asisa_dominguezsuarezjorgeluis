@@ -77,8 +77,9 @@ public class Figura {
         switch(opcion){
             case 1:
                
-                    try{
+                    
                         System.out.println("Ingresa la base del triangulo: ");
+                        try{
                     
                         base = entrada.nextDouble();
                         System.out.println("Ingrese la altura del triangulo: ");
