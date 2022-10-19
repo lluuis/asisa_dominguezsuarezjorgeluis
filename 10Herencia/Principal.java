@@ -44,7 +44,7 @@ public class Principal {
       System.out.println(" 4 Conejo ");
       System.out.println(" 5 Cuyo ");
       System.out.println(" 6 Uron ");
-      System.out.println(" 7 Sorpresa ");
+      System.out.println(" 7 Tigre ");
       System.out.println("Digita tu opcion ");
       op = entrada.nextInt();
       switch (op) {
