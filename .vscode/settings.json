@@ -1,11 +1,12 @@
 {
     "java.project.sourcePaths": [
+        "09examen",
         "08Cadenas",
         "07Arreglos",
         "06Figura",
         "05ejercicio",
         "04EstructuraDatos",
         "03entradadetexto",
-        "09examen"
+        "10Herencia"
     ]
 }
