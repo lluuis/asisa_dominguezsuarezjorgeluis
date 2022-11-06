@@ -52,7 +52,7 @@ public class Animal {
 
     // recibir
     public String getNombre() {
-        System.out.print("ingrese el nombre");
+        System.out.print("ingrese el nombre :");
         nombre = entrada.nextLine();
         return nombre;
     }
@@ -64,7 +64,7 @@ public class Animal {
 
     // recibir
     public String getRaza() {
-        System.out.println("ingrese la raza");
+        System.out.println("ingrese la raza :");
         raza = entrada.nextLine();
         return raza;
     }
@@ -76,7 +76,7 @@ public class Animal {
 
     // recibir
     public String getTipo_alimento() {
-        System.out.println("ingrese lo que come la criatura");
+        System.out.println("ingrese lo que come la criatura: ");
         tipo_alimento = entrada.nextLine();
         return tipo_alimento;
     }
@@ -89,7 +89,7 @@ public class Animal {
     // recibir
 
     public int getEdad() {
-        System.out.println("ingrese la edad de la criatura");
+        System.out.println("ingrese la edad de la criatura: ");
         edad = entrada.nextInt();
         return edad;
     }

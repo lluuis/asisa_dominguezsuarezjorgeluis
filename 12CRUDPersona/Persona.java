@@ -1,17 +1,30 @@
 public class Persona {
 
+    private int id;
     private String nombre;
     private int edad;
-    private char genero;
+    // appat
+    // apmat
+    // dir
+    // colonia
+    // telefono
 
     public Persona() {
 
     }
 
-    public Persona(String nombre, int edad, char genero) {
+    public Persona(int id, String nombre, int edad) {
+        this.id = id;
         this.nombre = nombre;
         this.edad = edad;
-        this.genero = genero;
+    }
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
     }
 
     public String getNombre() {
@@ -28,14 +41,6 @@ public class Persona {
 
     public void setEdad(int edad) {
         this.edad = edad;
-    }
-
-    public char getGenero() {
-        return genero;
-    }
-
-    public void setGenero(char genero) {
-        this.genero = genero;
     }
 
 }
