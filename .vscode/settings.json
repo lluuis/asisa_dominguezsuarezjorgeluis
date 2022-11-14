@@ -1,5 +1,6 @@
 {
     "java.project.sourcePaths": [
+        "15ventana",
         "12CRUDPersona",
         "11HerenciaPersona",
         "10Herencia",
@@ -10,6 +11,6 @@
         "05ejercicio",
         "04EstructuraDatos",
         "03entradadetexto",
-        "15ventana"
+        ""
     ]
 }
